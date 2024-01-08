@@ -6,16 +6,22 @@
 //
 
 #import "AppDelegate.h"
+#import "OLDebugWindow.h"
 
 @interface AppDelegate ()
+{
+    OLDebugWindow* debugWindow;
+}
 
-@property (strong) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    debugWindow = [[OLDebugWindow alloc] initWithWindowNibName:@"OLDebugWindow"];
+    [debugWindow showWindow:nil];
+    
 }
 
 

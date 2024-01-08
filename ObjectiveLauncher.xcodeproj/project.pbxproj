@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DACE8FA2B4C0D79009BA82C /* VCServerHelperIntro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACE8F82B4C0D79009BA82C /* VCServerHelperIntro.m */; };
+		5DACE8FB2B4C0D79009BA82C /* VCServerHelperIntro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DACE8F92B4C0D79009BA82C /* VCServerHelperIntro.xib */; };
+		5DACE9022B4C1FC3009BA82C /* SAConnectPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACE9002B4C1FC3009BA82C /* SAConnectPanel.m */; };
+		5DACE9032B4C1FC3009BA82C /* SAConnectPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DACE9012B4C1FC3009BA82C /* SAConnectPanel.xib */; };
+		5DACE9092B4C3403009BA82C /* OLDebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACE9072B4C3403009BA82C /* OLDebugWindow.m */; };
+		5DACE90A2B4C3403009BA82C /* OLDebugWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DACE9082B4C3403009BA82C /* OLDebugWindow.xib */; };
+		5DF462CB2B496EFA0008D44A /* VCLauncherNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF462C92B496EFA0008D44A /* VCLauncherNew.xib */; };
+		5DF462CF2B496F520008D44A /* VCLauncherNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF462CD2B496F520008D44A /* VCLauncherNew.m */; };
 		5DF49A862B4948B0002FD2BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF49A852B4948B0002FD2BE /* AppDelegate.m */; };
 		5DF49A882B4948B2002FD2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF49A872B4948B2002FD2BE /* Assets.xcassets */; };
 		5DF49A8B2B4948B2002FD2BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF49A892B4948B2002FD2BE /* MainMenu.xib */; };
@@ -14,6 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DACE8F72B4C0D79009BA82C /* VCServerHelperIntro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCServerHelperIntro.h; sourceTree = "<group>"; };
+		5DACE8F82B4C0D79009BA82C /* VCServerHelperIntro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCServerHelperIntro.m; sourceTree = "<group>"; };
+		5DACE8F92B4C0D79009BA82C /* VCServerHelperIntro.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCServerHelperIntro.xib; sourceTree = "<group>"; };
+		5DACE8FF2B4C1FC3009BA82C /* SAConnectPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAConnectPanel.h; sourceTree = "<group>"; };
+		5DACE9002B4C1FC3009BA82C /* SAConnectPanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAConnectPanel.m; sourceTree = "<group>"; };
+		5DACE9012B4C1FC3009BA82C /* SAConnectPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SAConnectPanel.xib; sourceTree = "<group>"; };
+		5DACE9062B4C3403009BA82C /* OLDebugWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLDebugWindow.h; sourceTree = "<group>"; };
+		5DACE9072B4C3403009BA82C /* OLDebugWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLDebugWindow.m; sourceTree = "<group>"; };
+		5DACE9082B4C3403009BA82C /* OLDebugWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OLDebugWindow.xib; sourceTree = "<group>"; };
+		5DF462C92B496EFA0008D44A /* VCLauncherNew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCLauncherNew.xib; sourceTree = "<group>"; };
+		5DF462CC2B496F520008D44A /* VCLauncherNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCLauncherNew.h; sourceTree = "<group>"; };
+		5DF462CD2B496F520008D44A /* VCLauncherNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCLauncherNew.m; sourceTree = "<group>"; };
 		5DF49A812B4948B0002FD2BE /* ObjectiveLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF49A842B4948B0002FD2BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DF49A852B4948B0002FD2BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,6 +54,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DACE8F42B4C0D39009BA82C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5DACE8F72B4C0D79009BA82C /* VCServerHelperIntro.h */,
+				5DACE8F82B4C0D79009BA82C /* VCServerHelperIntro.m */,
+				5DACE8F92B4C0D79009BA82C /* VCServerHelperIntro.xib */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5DACE8FC2B4C1EF2009BA82C /* ServerAssistent */ = {
+			isa = PBXGroup;
+			children = (
+				5DACE8FE2B4C1FA7009BA82C /* ControlPanel */,
+			);
+			path = ServerAssistent;
+			sourceTree = "<group>";
+		};
+		5DACE8FD2B4C1EFA009BA82C /* RemotePlay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RemotePlay;
+			sourceTree = "<group>";
+		};
+		5DACE8FE2B4C1FA7009BA82C /* ControlPanel */ = {
+			isa = PBXGroup;
+			children = (
+				5DACE8FF2B4C1FC3009BA82C /* SAConnectPanel.h */,
+				5DACE9002B4C1FC3009BA82C /* SAConnectPanel.m */,
+				5DACE9012B4C1FC3009BA82C /* SAConnectPanel.xib */,
+			);
+			path = ControlPanel;
+			sourceTree = "<group>";
+		};
+		5DF462C62B496ED90008D44A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5DF462C92B496EFA0008D44A /* VCLauncherNew.xib */,
+				5DF462CC2B496F520008D44A /* VCLauncherNew.h */,
+				5DF462CD2B496F520008D44A /* VCLauncherNew.m */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5DF462D12B4973FF0008D44A /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		5DF462D22B4974A70008D44A /* CoreLauncher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreLauncher;
+			sourceTree = "<group>";
+		};
 		5DF49A782B4948AF002FD2BE = {
 			isa = PBXGroup;
 			children = (
@@ -53,12 +132,21 @@
 		5DF49A832B4948B0002FD2BE /* ObjectiveLauncher */ = {
 			isa = PBXGroup;
 			children = (
+				5DACE8FD2B4C1EFA009BA82C /* RemotePlay */,
+				5DACE8FC2B4C1EF2009BA82C /* ServerAssistent */,
+				5DACE8F42B4C0D39009BA82C /* Helper */,
+				5DF462D22B4974A70008D44A /* CoreLauncher */,
+				5DF462D12B4973FF0008D44A /* Downloader */,
+				5DF462C62B496ED90008D44A /* Presentation */,
 				5DF49A842B4948B0002FD2BE /* AppDelegate.h */,
 				5DF49A852B4948B0002FD2BE /* AppDelegate.m */,
 				5DF49A872B4948B2002FD2BE /* Assets.xcassets */,
 				5DF49A892B4948B2002FD2BE /* MainMenu.xib */,
 				5DF49A8C2B4948B2002FD2BE /* main.m */,
 				5DF49A8E2B4948B2002FD2BE /* ObjectiveLauncher.entitlements */,
+				5DACE9062B4C3403009BA82C /* OLDebugWindow.h */,
+				5DACE9072B4C3403009BA82C /* OLDebugWindow.m */,
+				5DACE9082B4C3403009BA82C /* OLDebugWindow.xib */,
 			);
 			path = ObjectiveLauncher;
 			sourceTree = "<group>";
@@ -94,6 +182,7 @@
 				TargetAttributes = {
 					5DF49A802B4948B0002FD2BE = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -120,7 +209,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DACE8FB2B4C0D79009BA82C /* VCServerHelperIntro.xib in Resources */,
+				5DACE9032B4C1FC3009BA82C /* SAConnectPanel.xib in Resources */,
+				5DACE90A2B4C3403009BA82C /* OLDebugWindow.xib in Resources */,
 				5DF49A882B4948B2002FD2BE /* Assets.xcassets in Resources */,
+				5DF462CB2B496EFA0008D44A /* VCLauncherNew.xib in Resources */,
 				5DF49A8B2B4948B2002FD2BE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,8 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DACE9022B4C1FC3009BA82C /* SAConnectPanel.m in Sources */,
+				5DACE8FA2B4C0D79009BA82C /* VCServerHelperIntro.m in Sources */,
+				5DACE9092B4C3403009BA82C /* OLDebugWindow.m in Sources */,
 				5DF49A8D2B4948B2002FD2BE /* main.m in Sources */,
 				5DF49A862B4948B0002FD2BE /* AppDelegate.m in Sources */,
+				5DF462CF2B496F520008D44A /* VCLauncherNew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ObjectiveLauncher/ObjectiveLauncher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -283,10 +381,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.tri.ObjectiveLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjectiveLauncher/Presentation/ObjectiveLauncher-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -295,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ObjectiveLauncher/ObjectiveLauncher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -307,10 +410,13 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.tri.ObjectiveLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjectiveLauncher/Presentation/ObjectiveLauncher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
